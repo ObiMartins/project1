@@ -5,7 +5,7 @@ today = datetime.date.today()
 print(today)
 
 current_user = os.getcwd()
-print(current_user)
+print("Current User is: " + current_user)
 
 data = {"Name": "Python", "age": 30, }
 json_string = json.dumps(data)
