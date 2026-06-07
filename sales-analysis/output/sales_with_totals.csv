@@ -1,0 +1,9 @@
+date,product,quantity,price, remark,total
+2024-01-01,Laptop,2,999.99, Good,1999.98
+2024-01-01,Mouse,5,29.99, fair,149.95
+2024-01-02,Keyboard,3,79.99, average,239.96999999999997
+2024-01-02,Monitor,1,299.99, medium,299.99
+2024-01-03,Laptop,1,999.99, not bad,999.99
+2024-01-03,Mouse,10,29.99, poor,299.9
+2024-01-04,Keyboard,2,79.99, v poor,159.98
+2024-01-05,Monitor,2,299.99, v Good,599.98
