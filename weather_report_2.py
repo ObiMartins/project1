@@ -50,7 +50,7 @@ ax1.plot(data_frame_2["date"], data_frame_2["min_temp"], marker="o", label="Min 
 plt.xlabel("Date")
 ax1.set_ylabel("Temperature (°C)")
 
-# Rainfall bars
+# Rainfall bars here
 ax2 = ax1.twinx()
 ax2.bar(data_frame_2["date"], data_frame_2["precipitation_sum"], alpha=0.3, label="Precipitation", color="blue")
 ax2.set_ylabel("Precipitation (mm)")
