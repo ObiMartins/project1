@@ -20,9 +20,9 @@ print("Sales Data:")
 for index, row in data_frame.iterrows():
     formatted_total = format_currency(row["total"])
     print(f"{row['product']}: {formatted_total}")
-    
+
 
 # Show grand total
 grand_total = data_frame["total"].sum()
-#formatted_grand_total = format_currency(grand_total)
+# formatted_grand_total = format_currency(grand_total)
 print(f"\nGrand Total: {grand_total}")
