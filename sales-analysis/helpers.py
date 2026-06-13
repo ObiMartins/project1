@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 def calculate_total(quantity, price):
     """Calculate total for a single item."""
@@ -10,3 +11,5 @@ def format_currency(amount):
 
 def calculate_discount(price, discount):
     return price * discount / 100 
+=======
+>>>>>>> 8b412d8c730606ab2c041da0cd49ea09d50a9e0b

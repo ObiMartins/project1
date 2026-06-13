@@ -44,7 +44,7 @@ except Exception as e:
 
 # Show grand total
 grand_total = data_frame["total"].sum()
-#formatted_grand_total = format_currency(grand_total)
+# formatted_grand_total = format_currency(grand_total)
 print(f"\nGrand Total: {grand_total}")
 
 # Calculate Discount for Grand Total
